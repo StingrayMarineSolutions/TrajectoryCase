@@ -20,6 +20,10 @@ Your task is to make an algorithm that predicts the stereo coordinate for the ne
    If you're training a model etc it's only the inference part that has this time constraint.
 6. This is a good oppurtunity for you to show your skills. E.g if you applied for the Node Team (ROV) position it would be nice if at least parts of your solution is written in C++.
    Likewise, if you applied for the app team parts of your solution should be in C# or Javascript and if you applied for the ML team parts of your solution should be in Python. 
+7. During the interview we will go through your solution and you will get the chance to explain your code and justify your choices.
+   We will send you an evaluation file on the same format as the `samples.csv` file.
+   You will then run your program on this file and produce an output file on the format explained in the [Evaluation section](#evaluation).
+   You will send the result file to us and we will then calculate your score.
 
 
 ## Data description
@@ -67,6 +71,7 @@ id,frame,x-left,y-left,x-right,y-right
 ...
 ```
 At the time of the interview, we will bring an evaluation set with the same format as `samples.csv`.
+You should calculate a prediction for all points, skipped points will be penalized.
 We will measure the RMSE error of your program on all data points.
 
 ## Final notes
@@ -74,5 +79,6 @@ We are not interested in testing your ChatGPT skills.
 Using it as a tool is of course fine, but if we suspect an over reliance on it we will consider this negatively.
 We also know that it's easy to cheat on this task by just making a program that copies the input trajectories, but we will go through your code together.
 
+Good Luck! :smile:
 
 ![MainImage](TrajectoryCase.png)
