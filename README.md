@@ -16,7 +16,11 @@ Your task is to make an algorithm that predicts the stereo coordinate for the ne
 2. Your algorithm doesn't have to predict until it has received 3 points, but you can of course use all previous points when making a prediction.
 3. The algorithm should be able to predict the next point after it has received the third point. 
 4. The frame number is zero-indexed so the first element means frame 0.
-5. We expect your program to run in under 3 minutes on 40 000 trajectories.
+5. We expect your program to run in under 3 minutes on 40 000 trajectories. 
+   If you're training a model etc it's only the inference part that has this time constraint.
+6. This is a good oppurtunity for you to show your skills. E.g if you applied for the Node Team (ROV) position it would be nice if at least parts of your solution is written in C++.
+   Likewise, if you applied for the app team parts of your solution should be in C# or Javascript and if you applied for the ML team parts of your solution should be in Python. 
+
 
 ## Data description
 You can find the trajectory samples in the file `samples.csv`.
